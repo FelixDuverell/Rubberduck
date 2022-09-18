@@ -54,6 +54,10 @@ body {
     width: 80%;
 }
 
+.form-area1 input {
+    width: 40%;
+}
+
 .form-area input[type=text] {
     font-family: 'Roboto', sans-serif;
     border: none;
