@@ -6,38 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <title>Duckform</title>
 </head>
 <body>
+    <main>
     <div class="form-area">
         <form action="">
-            <p>FULL NAME</p>
-            <input type="text" name="" id="">
-            <div class="form-area1">
-            <p>EMAIL</p>
-            <input type="text" name="" id="" placeholder="Y o u r   E m a i l">
-            <p>MESSAGE REGARDING</p>
-            <input type="text" name="" id=""></div>
-            <p>MESSAGE</p>
-            <input type="text" name="" id="" placeholder="Y o u r   M e s s a g e">
-            <input type="submit" value="Send Message">
+            <label for="name" class="label">FULL NAME</label>
+            <input type="text" name="name" id="name" class="input-field" placeholder="">
+
+            <label for="email" class="label">EMAIL</label>
+            <input type="email" name="email" id="email" class="input-field" placeholder="Your Email" required autofocus>
+
+
+            <label for="name" class="label">MESSAGE REGARDING</label>
+            <input type="text" name="name" id="name" class="input-field" placeholder="">
+
+            <label for="name" class="label">MESSAGE</label>
+            <input type="text" name="name" id="name" class="input-field" placeholder="Your Message">
+
+            <button type="submit" class="button">Send Message</button>
+
+
+            
         </form>
     </div>
 
 <section class="container">
-    <div class="block">
-        <section class="container2">
+    <div class="container2">
+        <div class="block">
             <div class="block1">
-                <div class="img">
                     <div class="duck">
                         <img style="margin: 0 0 5px 20px; float: right;" src="images/duck.png" alt="rubberduck">
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </div>
 </section>
 
-    
+
+</main>
 </body>
 </html>
